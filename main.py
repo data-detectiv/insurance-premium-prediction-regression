@@ -4,7 +4,6 @@ def main():
     st.title("Health Insurance Cost Predictor",)
     col1, col2, col3 = st.columns(3)
     
-    # Numerical Inputs
     with col1:
         age = st.number_input("Age", min_value=18, max_value=100, step=1)
         genetical_risk = st.number_input("Genetical Risk", min_value=0, step=1)
