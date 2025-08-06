@@ -5,8 +5,10 @@ __pycache__/
 
 # C extensions
 *.so
-insurance-premium-prediction-regression/training-model/datasets/premiums_rest.xlsx
-insurance-premium-prediction-regression/training-model/datasets/premiums_young_with_gr.xlsx
+
+/training-model/datasets/*.xlsx
+*.xlsx
+
 
 # Distribution / packaging
 .Python
